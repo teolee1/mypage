@@ -87,8 +87,8 @@
             margin-top: 20px;
         }
 
-        .mybrn > button {
-margin-right: 10px;
+        .mybrn>button {
+            margin-right: 10px;
 
         }
     </style>
@@ -105,6 +105,16 @@ margin-right: 10px;
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">영화 url</label>
         </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">별점</label>
+            <select class="form-select" id="inputGroupSelect01">
+                <option selected>--선택하기--</option>
+                <option value="1">⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+            </select>
+        </div>
+
         <div class="form-floating">
             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
             <label for="floatingPassword">코멘트</label>
@@ -169,7 +179,7 @@ margin-right: 10px;
                         <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.</p>
                         <p>⭐⭐⭐</p>
-                        <p class="mycomment">나의 점수!</p>
+                        <p class="mycomment">나의 점수</p>
                     </div>
                 </div>
             </div>
